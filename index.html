@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayesha Siddika — Data Analyst & Technology Enthusiast</title>
+  <meta name="description"
+    content="Portfolio of Ayesha Siddika — Data Analyst Trainee at Save the Children International. Transforming data into insights for social impact.">
+  <meta name="keywords" content="Data Analyst, Machine Learning, Humanitarian Technology, Portfolio, Ayesha Siddika">
+  <meta name="author" content="Ayesha Siddika">
+  <meta property="og:title" content="Ayesha Siddika — Data Analyst Portfolio">
+  <meta property="og:description" content="Transforming data into insights for social impact.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#06060e">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#hero" class="nav-logo">AS ✦</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#education" onclick="closeMenu()">Education</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#volunteering" onclick="closeMenu()">Impact</a></li>
+        <li><a href="#achievements" onclick="closeMenu()">Achievements</a></li>
+        <li><a href="#contact" onclick="closeMenu()" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-gradient-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Open to Opportunities
+      </div>
+
+      <h1 class="hero-name" id="heroName">Ayesha Siddika</h1>
+
+      <div class="hero-roles">
+        <span class="hero-role active">Data Analyst</span>
+        <span class="hero-role">ML Enthusiast</span>
+        <span class="hero-role">Tech for Social Good</span>
+      </div>
+
+      <p class="hero-tagline">
+        "Transforming data into meaningful insights that create real-world impact."
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M3 9h18" />
+            <path d="M9 21V9" />
+          </svg>
+          View Projects
+        </a>
+        <a href="#about" class="btn btn-secondary">
+          About Me
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <div class="section-divider"></div>
+  <section id="about" class="section">
+    <div class="ambient-orb orb-1"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">The <span class="gradient-text">Story</span> Behind the Data</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-portrait reveal-left">
+          <img src="potrait.jpg" alt="Ayesha Siddika" loading="lazy">
+          <div class="portrait-glow"></div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <h3>Data Enthusiast. Social Impact Advocate. Lifelong Learner.</h3>
+          <p>
+            I'm <strong>Ayesha Siddika</strong>, a Trainee Data Analyst at <strong>Save the Children
+              International</strong>, where I work with analytics tools and data systems to support humanitarian
+            programs.
+          </p>
+          <p>
+            Enthusiastic Computer Science and Engineering graduate with a strong foundation in programming, data
+            structures, algorithms, OOP, MySQL, machine learning, and deep learning. Passionate about leveraging
+            analytical and problem-solving skills in areas such as data analysis, AI-driven solutions, and
+            cybersecurity.
+          </p>
+          <p>
+            With a <strong>B.Sc. in Computer Science & Engineering from Daffodil International University</strong> (GPA:
+            3.8/4.0), I'm passionate about using data to drive evidence-based policy and create measurable social
+            impact. Eager to contribute to innovative industry projects or academic research that advance technology and
+            strengthen digital security.
+          </p>
+
+          <div class="about-interests">
+            <div class="interest-item reveal delay-1">
+              <span class="interest-icon">📊</span> Data-Driven Policy
+            </div>
+            <div class="interest-item reveal delay-2">
+              <span class="interest-icon">📈</span> Statistical Analysis
+            </div>
+            <div class="interest-item reveal delay-3">
+              <span class="interest-icon">🤖</span> Machine Learning
+            </div>
+            <div class="interest-item reveal delay-4">
+              <span class="interest-icon">🌍</span> Humanitarian Tech
+            </div>
+            <div class="interest-item reveal delay-5">
+              <span class="interest-icon">🔬</span> Research Methods
+            </div>
+            <div class="interest-item reveal delay-6">
+              <span class="interest-icon">🏛️</span> Digital Governance
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <div class="section-divider"></div>
+  <section id="education" class="section">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Education</div>
+        <h2 class="section-title">Academic <span class="gradient-text">Foundation</span></h2>
+      </div>
+      <div class="education-grid">
+        <div class="edu-card reveal">
+          <div class="edu-year">2020 — 2024</div>
+          <h3 class="edu-degree">B.Sc. in Computer Science & Engineering</h3>
+          <p class="edu-school">Daffodil International University</p>
+          <p class="edu-gpa">GPA: 3.8 / 4.0</p>
+        </div>
+        <div class="edu-card reveal delay-1">
+          <div class="edu-year">2017 — 2019</div>
+          <h3 class="edu-degree">Higher Secondary Certificate (HSC)</h3>
+          <p class="edu-school">HM Institution</p>
+          <p class="edu-gpa">GPA: 4.83 / 5.0</p>
+        </div>
+        <div class="edu-card reveal delay-2">
+          <div class="edu-year">2014 — 2016</div>
+          <h3 class="edu-degree">Secondary School Certificate (SSC)</h3>
+          <p class="edu-school">Khadiza Abubakar High School</p>
+          <p class="edu-gpa">GPA: 5.0 / 5.0</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <div class="section-divider"></div>
+  <section id="experience" class="section">
+    <div class="ambient-orb orb-2"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Experience</div>
+        <h2 class="section-title">Where Data Meets <span class="gradient-text">Impact</span></h2>
+        <p class="section-description">A journey through analytics, government data, education, and emergency response.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Sept 2025 — Present</div>
+          <div class="timeline-role">Trainee Data Analyst</div>
+          <div class="timeline-company">Save the Children International</div>
+          <p class="timeline-desc">
+            Supporting digital transformation under the Digital Equity Fellowship. Developing data-driven applications
+            and automated workflows using <strong>PowerApps, Power Automate, and SharePoint</strong>.
+            Contributed to international projects: Yemen FRM, Lebanon FRM, and Medical QMS. Analyzing data using
+            <strong>Power BI</strong> to produce interactive dashboards for global stakeholders.
+          </p>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-date">April 2025 — June 2025</div>
+          <div class="timeline-role">Intern, Statistics Division</div>
+          <div class="timeline-company">Ministry of Planning</div>
+          <p class="timeline-desc">
+            Hands-on experience in survey design and data collection for the <strong>Quarterly GDP (QGDP) and
+              District-based GDP (DGDP)</strong> project. Learned government project budgeting and data confidentiality
+            protocols.
+          </p>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-date">Dec 2021 — Jan 2022</div>
+          <div class="timeline-role">Field Officer</div>
+          <div class="timeline-company">Social and Economic Enhancement Programme (SEEP)</div>
+          <p class="timeline-desc">
+            Collected impact data during the Tongi Fire emergency project using <strong>Kobo Toolbox</strong>.
+            Facilitated rapid gathering of reliable data from affected residents to support response planning.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <div class="section-divider"></div>
+  <section id="skills" class="section">
+    <div class="ambient-orb orb-3"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Skills</div>
+        <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+        <p class="section-description">Tools and technologies I use to turn raw data into actionable intelligence.</p>
+      </div>
+
+      <!-- Radial Chart -->
+      <div class="skills-chart-area reveal">
+        <div class="radial-chart" id="radialChart">
+          <svg viewBox="0 0 200 200">
+            <!-- Background circle -->
+            <circle cx="100" cy="100" r="85" stroke="rgba(255,255,255,0.04)" stroke-width="12" />
+            <!-- Analytics ring -->
+            <circle cx="100" cy="100" r="85" stroke="url(#radialGrad)" stroke-width="12" stroke-dasharray="534"
+              stroke-dashoffset="534" id="radialRing" />
+            <defs>
+              <linearGradient id="radialGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#4f7df5" />
+                <stop offset="50%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#6366f1" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="radial-center-text">
+            <div class="number" id="radialNumber">0</div>
+            <div class="label">Skills Mastered</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill Cards -->
+      <div class="skills-grid">
+        <div class="skill-card reveal delay-1" data-level="92">
+          <div class="skill-icon">📊</div>
+          <div class="skill-name">Data Analysis</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Expert</div>
+        </div>
+        <div class="skill-card reveal delay-2" data-level="88">
+          <div class="skill-icon">📈</div>
+          <div class="skill-name">Power BI</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal delay-3" data-level="85">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-name">Python</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal delay-4" data-level="82">
+          <div class="skill-icon">📐</div>
+          <div class="skill-name">SPSS</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal delay-5" data-level="78">
+          <div class="skill-icon">❄️</div>
+          <div class="skill-name">Snowflake</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Proficient</div>
+        </div>
+        <div class="skill-card reveal delay-6" data-level="90">
+          <div class="skill-icon">📉</div>
+          <div class="skill-name">Statistics</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Expert</div>
+        </div>
+        <div class="skill-card reveal delay-7" data-level="87">
+          <div class="skill-icon">🔬</div>
+          <div class="skill-name">Research Methodology</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal delay-8" data-level="84">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">Data Visualization</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal delay-1" data-level="76">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">Microsoft Power Apps</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Proficient</div>
+        </div>
+        <div class="skill-card reveal delay-2" data-level="74">
+          <div class="skill-icon">📋</div>
+          <div class="skill-name">Jira</div>
+          <div class="skill-bar-container">
+            <div class="skill-bar"></div>
+          </div>
+          <div class="skill-level">Proficient</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <div class="section-divider"></div>
+  <section id="projects" class="section">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Projects</div>
+        <h2 class="section-title">Featured <span class="gradient-text">Case Studies</span></h2>
+        <p class="section-description">Research, analytics, and data science projects creating real-world impact.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-image-container">
+            <img src="project_iot_ml.png" alt="IoT & ML Poultry Research" class="project-image">
+          </div>
+          <div class="project-card-glow"></div>
+          <div class="project-card-header">
+            <div class="project-type">📄 Conference Paper</div>
+            <h3 class="project-title">Environmental Effect on Egg Production Using ML and IoT</h3>
+          </div>
+          <p class="project-desc">
+            Developed a data-driven model to correlate environmental factors (temperature, humidity) with poultry egg
+            yield. Implemented ML algorithms to optimize farm conditions, demonstrating practical IoT applications in
+            agriculture.
+          </p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">IoT</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Data Analysis</span>
+            <span class="tech-tag">Agriculture Tech</span>
+          </div>
+          <div class="project-link-area" style="padding: 0 28px 28px;">
+            <a href="https://www.researchgate.net/publication/367120945_A_Data_Analysis_Technique_to_Find_the_Environmental_Effect_on_Egg_Production_in_the_Poultry_Farm_Using_ML_and_IOT"
+              target="_blank" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.85rem;">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                style="margin-right: 6px;">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              Read Paper
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal delay-1">
+          <div class="project-image-container">
+            <img src="project_gdp_analysis.png" alt="Thesis Project" class="project-image">
+          </div>
+          <div class="project-card-glow"></div>
+          <div class="project-card-header">
+            <div class="project-type">🎓 Final Year Thesis</div>
+            <h3 class="project-title">Banglish Hate Speech Detection</h3>
+          </div>
+          <p class="project-desc">
+            Developed an NLP-based deep learning model to detect hate speech in Banglish comments. Utilized models like
+            LSTM, GRU, and Bi-LSTM with a focus on ethical concerns and online privacy.
+          </p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Deep Learning</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Ethical AI</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal delay-2">
+          <div class="project-image-container">
+            <img src="project_humanitarian.png" alt="Content Writing Winner" class="project-image">
+          </div>
+          <div class="project-card-glow"></div>
+          <div class="project-card-header">
+            <div class="project-type">🏆 Award Winning</div>
+            <h3 class="project-title">Academic Writing Contest Winner — "Stack"</h3>
+          </div>
+          <p class="project-desc">
+            Recognized for well-researched and clearly articulated content, competing against many participants.
+            Strengthened ability to present complex technical ideas effectively to diverse audiences.
+          </p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Technical Writing</span>
+            <span class="tech-tag">Research</span>
+            <span class="tech-tag">Content Strategy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VOLUNTEERING ===================== -->
+  <div class="section-divider"></div>
+  <section id="volunteering" class="section">
+    <div class="ambient-orb orb-1"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Impact</div>
+        <h2 class="section-title">Beyond <span class="gradient-text">Technology</span></h2>
+        <p class="section-description">Volunteering and community engagement that extends impact beyond the data.</p>
+      </div>
+
+      <div class="volunteer-grid">
+        <div class="volunteer-card reveal delay-1">
+          <div class="volunteer-icon">🚒</div>
+          <div class="volunteer-org">Bangladesh Fire Service & Civil Defence</div>
+          <div class="volunteer-role">Urban Community Volunteer</div>
+        </div>
+        <div class="volunteer-card reveal delay-2">
+          <div class="volunteer-icon">🧒</div>
+          <div class="volunteer-org">Glory Future Foundation</div>
+          <div class="volunteer-role">Child Advisor</div>
+        </div>
+        <div class="volunteer-card reveal delay-3">
+          <div class="volunteer-icon">🌐</div>
+          <div class="volunteer-org">Youth Internet Governance Forum</div>
+          <div class="volunteer-role">Volunteer</div>
+        </div>
+        <div class="volunteer-card reveal delay-4">
+          <div class="volunteer-icon">🌏</div>
+          <div class="volunteer-org">Bangladesh Internet Governance Forum</div>
+          <div class="volunteer-role">Organizer</div>
+        </div>
+        <div class="volunteer-card reveal delay-5">
+          <div class="volunteer-icon">🎓</div>
+          <div class="volunteer-org">NetMission Academy</div>
+          <div class="volunteer-role">Fellow</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ACHIEVEMENTS ===================== -->
+  <div class="section-divider"></div>
+  <section id="achievements" class="section">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-label">Achievements</div>
+        <h2 class="section-title">Milestones & <span class="gradient-text">Recognition</span></h2>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card reveal delay-1">
+          <span class="achievement-emoji">🎓</span>
+          <div class="achievement-title">IEEE Research Publication</div>
+          <div class="achievement-paper">
+            <a href="https://www.researchgate.net/publication/367120945_A_Data_Analysis_Technique_to_Find_the_Environmental_Effect_on_Egg_Production_in_the_Poultry_Farm_Using_ML_and_IOT"
+              target="_blank" class="paper-link">
+              A Data Analysis Technique to Find the Environmental Effect on Egg Production in the Poultry Farm Using ML
+              and IOT
+            </a>
+          </div>
+        </div>
+        <div class="achievement-card reveal delay-2">
+          <span class="achievement-emoji">🎓</span>
+          <div class="achievement-title">NetMission Academy Fellowship</div>
+        </div>
+        <div class="achievement-card reveal delay-3">
+          <span class="achievement-emoji">🌐</span>
+          <div class="achievement-title">Bangladesh School of Internet Governance Fellowship</div>
+        </div>
+        <div class="achievement-card reveal delay-4">
+          <span class="achievement-emoji">🏆</span>
+          <div class="achievement-title">Phitron Academic Writing Contest Winner</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <div class="section-divider"></div>
+  <section id="contact" class="section">
+    <div class="ambient-orb orb-2"></div>
+    <div class="section-container">
+      <div class="contact-content reveal">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="contact-message">
+          Let's collaborate to transform data into <span class="gradient-text">meaningful solutions</span>.
+        </h2>
+        <p class="contact-sub">
+          I'm always open to discussing data analytics, research collaborations, or opportunities to create social
+          impact through technology.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:ayeshasiddika6413@gmail.com" class="contact-link" id="contactEmail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="M22 7l-10 7L2 7" />
+            </svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/ayesha6413/" target="_blank" class="contact-link" id="contactLinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/siddikaayesha" target="_blank" class="contact-link" id="contactGitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://leetcode.com/u/ayesha6413/" target="_blank" class="contact-link" id="contactLeetCode">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" />
+            </svg>
+            LeetCode
+          </a>
+        </div>
+
+        <p class="contact-closing">
+          ✦ Based in Dhaka, Bangladesh — Available worldwide ✦
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <p>© 2026 <span class="gradient-text">Ayesha Siddika</span>. Crafted with passion for data & impact.</p>
+  </footer>
+
+  <!-- ===================== CHATBOT ===================== -->
+  <div class="chatbot-container" id="chatbot">
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open Chatbot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+    </button>
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-title">
+          <span class="dot"></span>
+          Antigravity AI Assistant
+        </div>
+        <button class="chatbot-close" id="chatbotClose">&times;</button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="message system">
+          Hello! I'm AI Assistant. I can help you learn about Ayesha Siddika's work, skills, and projects. What would
+          you like to know?
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="chatbotInput" placeholder="Ask me anything..." autocomplete="off">
+        <button id="chatbotSend">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <!-- Local npm packages for 3D and animations -->
+  <script src="node_modules/three/build/three.min.js"></script>
+  <script src="node_modules/gsap/dist/gsap.min.js"></script>
+  <script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+
+  <script>
+    // ============================================
+    // MAIN APPLICATION SCRIPT
+    // ============================================
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // ---- Custom Cursor ----
+      const cursorDot = document.getElementById('cursorDot');
+      const cursorRing = document.getElementById('cursorRing');
+      let mouseX = 0, mouseY = 0;
+      let ringX = 0, ringY = 0;
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        cursorDot.style.left = mouseX - 4 + 'px';
+        cursorDot.style.top = mouseY - 4 + 'px';
+      });
+
+      function animateCursor() {
+        ringX += (mouseX - ringX) * 0.15;
+        ringY += (mouseY - ringY) * 0.15;
+        cursorRing.style.left = ringX + 'px';
+        cursorRing.style.top = ringY + 'px';
+        requestAnimationFrame(animateCursor);
+      }
+      animateCursor();
+
+      // Hover effect on interactive elements
+      document.querySelectorAll('a, button, .skill-card, .project-card, .volunteer-card, .achievement-card, .interest-item').forEach(el => {
+        el.addEventListener('mouseenter', () => cursorRing.classList.add('hovering'));
+        el.addEventListener('mouseleave', () => cursorRing.classList.remove('hovering'));
+      });
+
+      // ---- Mobile Menu ----
+      const mobileToggle = document.getElementById('mobileToggle');
+      const navLinks = document.getElementById('navLinks');
+
+      mobileToggle.addEventListener('click', () => {
+        mobileToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+
+      window.closeMenu = function () {
+        mobileToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      };
+
+      // ---- Navbar scroll effect ----
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 60);
+      });
+
+      // ---- Three.js Particle Hero ----
+      const canvas = document.getElementById('hero-canvas');
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+      // Particles
+      const particleCount = 1500;
+      const positions = new Float32Array(particleCount * 3);
+      const velocities = new Float32Array(particleCount * 3);
+      const colors = new Float32Array(particleCount * 3);
+
+      const colorPalette = [
+        new THREE.Color('#4f7df5'),
+        new THREE.Color('#8b5cf6'),
+        new THREE.Color('#6366f1'),
+        new THREE.Color('#22d3ee'),
+        new THREE.Color('#a78bfa'),
+      ];
+
+      for (let i = 0; i < particleCount; i++) {
+        const i3 = i * 3;
+        positions[i3] = (Math.random() - 0.5) * 20;
+        positions[i3 + 1] = (Math.random() - 0.5) * 20;
+        positions[i3 + 2] = (Math.random() - 0.5) * 15;
+
+        velocities[i3] = (Math.random() - 0.5) * 0.005;
+        velocities[i3 + 1] = (Math.random() - 0.5) * 0.005;
+        velocities[i3 + 2] = (Math.random() - 0.5) * 0.003;
+
+        const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        colors[i3] = color.r;
+        colors[i3 + 1] = color.g;
+        colors[i3 + 2] = color.b;
+      }
+
+      const particleGeometry = new THREE.BufferGeometry();
+      particleGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+      particleGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+      const particleMaterial = new THREE.PointsMaterial({
+        size: 0.04,
+        vertexColors: true,
+        transparent: true,
+        opacity: 0.7,
+        blending: THREE.AdditiveBlending,
+        depthWrite: false,
+      });
+
+      const particles = new THREE.Points(particleGeometry, particleMaterial);
+      scene.add(particles);
+
+      // Network lines
+      const lineCount = 200;
+      const linePositions = new Float32Array(lineCount * 6);
+      const lineMaterial = new THREE.LineBasicMaterial({
+        color: 0x6366f1,
+        transparent: true,
+        opacity: 0.06,
+        blending: THREE.AdditiveBlending,
+      });
+
+      function updateLines() {
+        const pos = particleGeometry.attributes.position.array;
+        let lineIdx = 0;
+        for (let i = 0; i < particleCount && lineIdx < lineCount; i++) {
+          for (let j = i + 1; j < particleCount && lineIdx < lineCount; j++) {
+            const dx = pos[i * 3] - pos[j * 3];
+            const dy = pos[i * 3 + 1] - pos[j * 3 + 1];
+            const dz = pos[i * 3 + 2] - pos[j * 3 + 2];
+            const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+            if (dist < 2.0) {
+              const li = lineIdx * 6;
+              linePositions[li] = pos[i * 3];
+              linePositions[li + 1] = pos[i * 3 + 1];
+              linePositions[li + 2] = pos[i * 3 + 2];
+              linePositions[li + 3] = pos[j * 3];
+              linePositions[li + 4] = pos[j * 3 + 1];
+              linePositions[li + 5] = pos[j * 3 + 2];
+              lineIdx++;
+            }
+          }
+        }
+      }
+
+      const lineGeometry = new THREE.BufferGeometry();
+      lineGeometry.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+      const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+      scene.add(lines);
+
+      camera.position.z = 8;
+
+      let mouseHeroX = 0, mouseHeroY = 0;
+      document.addEventListener('mousemove', (e) => {
+        mouseHeroX = (e.clientX / window.innerWidth - 0.5) * 2;
+        mouseHeroY = (e.clientY / window.innerHeight - 0.5) * 2;
+      });
+
+      function animateParticles() {
+        requestAnimationFrame(animateParticles);
+
+        const pos = particleGeometry.attributes.position.array;
+        for (let i = 0; i < particleCount; i++) {
+          const i3 = i * 3;
+          pos[i3] += velocities[i3];
+          pos[i3 + 1] += velocities[i3 + 1];
+          pos[i3 + 2] += velocities[i3 + 2];
+
+          // Boundary wrap
+          if (pos[i3] > 10) pos[i3] = -10;
+          if (pos[i3] < -10) pos[i3] = 10;
+          if (pos[i3 + 1] > 10) pos[i3 + 1] = -10;
+          if (pos[i3 + 1] < -10) pos[i3 + 1] = 10;
+          if (pos[i3 + 2] > 7.5) pos[i3 + 2] = -7.5;
+          if (pos[i3 + 2] < -7.5) pos[i3 + 2] = 7.5;
+        }
+        particleGeometry.attributes.position.needsUpdate = true;
+
+        // Mouse interaction
+        particles.rotation.y += (mouseHeroX * 0.1 - particles.rotation.y) * 0.02;
+        particles.rotation.x += (mouseHeroY * 0.05 - particles.rotation.x) * 0.02;
+
+        // Update network lines periodically
+        if (Math.random() < 0.05) {
+          updateLines();
+          lineGeometry.attributes.position.needsUpdate = true;
+        }
+
+        lines.rotation.y = particles.rotation.y;
+        lines.rotation.x = particles.rotation.x;
+
+        renderer.render(scene, camera);
+      }
+      animateParticles();
+
+      window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+
+      // ---- GSAP ScrollTrigger Animations ----
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Reveal animations
+      const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+      revealElements.forEach((el) => {
+        ScrollTrigger.create({
+          trigger: el,
+          start: 'top 85%',
+          onEnter: () => el.classList.add('active'),
+        });
+      });
+
+      // Parallax for ambient orbs
+      document.querySelectorAll('.ambient-orb').forEach((orb) => {
+        gsap.to(orb, {
+          y: -100,
+          ease: 'none',
+          scrollTrigger: {
+            trigger: orb.closest('.section'),
+            start: 'top bottom',
+            end: 'bottom top',
+            scrub: 1,
+          },
+        });
+      });
+
+      // Hero content entrance animation
+      gsap.from('.hero-badge', { opacity: 0, y: 30, duration: 1, delay: 0.3, ease: 'power4.out' });
+      gsap.from('.hero-name', { opacity: 0, y: 50, duration: 1.2, delay: 0.5, ease: 'power4.out' });
+      gsap.from('.hero-roles .hero-role', {
+        opacity: 0, y: 20, duration: 0.8, delay: 0.8, stagger: 0.15, ease: 'power3.out'
+      });
+      gsap.from('.hero-tagline', { opacity: 0, y: 20, duration: 1, delay: 1.2, ease: 'power3.out' });
+      gsap.from('.hero-buttons .btn', {
+        opacity: 0, y: 20, duration: 0.8, delay: 1.5, stagger: 0.1, ease: 'power3.out'
+      });
+      gsap.from('.hero-scroll-indicator', { opacity: 0, duration: 1, delay: 2, ease: 'power2.out' });
+
+      // Role cycling animation
+      const roles = document.querySelectorAll('.hero-role');
+      let currentRole = 0;
+      setInterval(() => {
+        roles[currentRole].classList.remove('active');
+        currentRole = (currentRole + 1) % roles.length;
+        roles[currentRole].classList.add('active');
+      }, 3000);
+
+      // ---- Skill Bars Animation ----
+      const skillCards = document.querySelectorAll('.skill-card');
+      skillCards.forEach(card => {
+        const level = card.dataset.level;
+        const bar = card.querySelector('.skill-bar');
+        ScrollTrigger.create({
+          trigger: card,
+          start: 'top 85%',
+          onEnter: () => {
+            bar.style.width = level + '%';
+          },
+        });
+      });
+
+      // Radial Chart Animation
+      const radialRing = document.getElementById('radialRing');
+      const radialNumber = document.getElementById('radialNumber');
+      const circumference = 2 * Math.PI * 85;
+      const targetOffset = circumference - (circumference * 0.85);
+
+      ScrollTrigger.create({
+        trigger: '#radialChart',
+        start: 'top 80%',
+        onEnter: () => {
+          radialRing.style.strokeDashoffset = targetOffset;
+
+          // Counter animation
+          let count = 0;
+          const target = 10;
+          const interval = setInterval(() => {
+            count++;
+            radialNumber.textContent = count;
+            if (count >= target) clearInterval(interval);
+          }, 100);
+        },
+      });
+
+      // ---- Section title parallax ----
+      document.querySelectorAll('.section-title').forEach(title => {
+        gsap.to(title, {
+          y: -15,
+          ease: 'none',
+          scrollTrigger: {
+            trigger: title,
+            start: 'top 90%',
+            end: 'bottom 20%',
+            scrub: 1,
+          },
+        });
+      });
+
+      // ---- Timeline animation ----
+      document.querySelectorAll('.timeline-item').forEach((item, i) => {
+        gsap.from(item, {
+          x: -30,
+          opacity: 0,
+          duration: 0.8,
+          delay: i * 0.15,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: item,
+            start: 'top 85%',
+          },
+        });
+      });
+
+      // ---- Project card tilt effect ----
+      document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = (e.clientX - rect.left) / rect.width - 0.5;
+          const y = (e.clientY - rect.top) / rect.height - 0.5;
+          card.style.transform = `translateY(-8px) perspective(1000px) rotateX(${-y * 5}deg) rotateY(${x * 5}deg)`;
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'translateY(0) perspective(1000px) rotateX(0deg) rotateY(0deg)';
+        });
+      });
+
+      // ---- Magnetic hover for contact links ----
+      document.querySelectorAll('.contact-link').forEach(link => {
+        link.addEventListener('mousemove', (e) => {
+          const rect = link.getBoundingClientRect();
+          const x = e.clientX - rect.left - rect.width / 2;
+          const y = e.clientY - rect.top - rect.height / 2;
+          link.style.transform = `translateY(-3px) translate(${x * 0.15}px, ${y * 0.15}px)`;
+        });
+        link.addEventListener('mouseleave', () => {
+          link.style.transform = 'translateY(0) translate(0px, 0px)';
+        });
+      });
+
+      // ---- Smooth scroll for nav links ----
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = document.querySelector(anchor.getAttribute('href'));
+          if (target) {
+            const offset = 80;
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+          }
+        });
+      });
+
+      // ---- Chatbot Logic ----
+      const chatbotToggle = document.getElementById('chatbotToggle');
+      const chatbotClose = document.getElementById('chatbotClose');
+      const chatbotWindow = document.getElementById('chatbotWindow');
+      const chatbotMessages = document.getElementById('chatbotMessages');
+      const chatbotInput = document.getElementById('chatbotInput');
+      const chatbotSend = document.getElementById('chatbotSend');
+
+      const qaPairs = [
+        { keywords: ['who', 'you', 'about', 'introduction'], response: "Ayesha Siddika is a Trainee Data Analyst at Save the Children International. She's a CSE graduate from Daffodil International University with a focus on data analytics, ML, and social impact." },
+        { keywords: ['education', 'study', 'university', 'gpa'], response: "Ayesha graduated with a B.Sc. in Computer Science & Engineering from Daffodil International University (GPA 3.8/4.0). She also has high scores in HSC and SSC from HM Institution and Khadiza Abubakar High School." },
+        { keywords: ['skills', 'tech', 'python', 'sql', 'power'], response: "Ayesha is skilled in Python, SQL (MySQL), PowerApps, Power BI, and Power Automate. She also has experience with SPSS, Excel, and deep learning frameworks for NLP." },
+        { keywords: ['experience', 'work', 'job', 'save the children', 'planning'], response: "Ayesha currently works at Save the Children International as a Trainee Data Analyst. Previously, she interned at the Ministry of Planning (Statistics Division) and worked as a Field Officer for SEEP." },
+        { keywords: ['project', 'research', 'thesis', 'hate speech'], response: "Her major projects include a thesis on 'Banglish Hate Speech Detection' using Deep Learning and a published research paper on 'Environmental Effect on Egg Production' using IoT and ML." },
+        { keywords: ['contact', 'email', 'hiring', 'linkedin'], response: "You can reach Ayesha at ayeshasiddika6413@gmail.com or connect with her on LinkedIn (ayesha6413). She's always open to collaborating on data-driven solutions!" }
+      ];
+
+      function addMessage(text, type) {
+        const msg = document.createElement('div');
+        msg.classList.add('message', type);
+        msg.textContent = text;
+        chatbotMessages.appendChild(msg);
+        chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+      }
+
+      function handleResponse(userText) {
+        const text = userText.toLowerCase();
+        let found = false;
+
+        for (const pair of qaPairs) {
+          if (pair.keywords.some(k => text.includes(k))) {
+            addMessage(pair.response, 'system');
+            found = true;
+            break;
+          }
+        }
+
+        if (!found) {
+          addMessage("I'm not exactly sure about that. Would you like to know about Ayesha's skills, experience, or projects? Or you can contact her directly via the contact form!", 'system');
+        }
+      }
+
+      chatbotToggle.addEventListener('click', () => {
+        chatbotWindow.classList.toggle('active');
+        if (chatbotWindow.classList.contains('active')) {
+          chatbotInput.focus();
+        }
+      });
+
+      chatbotClose.addEventListener('click', () => {
+        chatbotWindow.classList.remove('active');
+      });
+
+      function sendMessage() {
+        const text = chatbotInput.value.trim();
+        if (text) {
+          addMessage(text, 'user');
+          chatbotInput.value = '';
+          setTimeout(() => handleResponse(text), 600);
+        }
+      }
+
+      chatbotSend.addEventListener('click', sendMessage);
+      chatbotInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') sendMessage();
+      });
+
+    }); // end DOMContentLoaded
+  </script>
+
+</body>
+
+</html>
